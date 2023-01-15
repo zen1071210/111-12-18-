@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.block {
+    width: 800px;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    background-color: gray;
+}
+
+.cube {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    
+}
+
+.static {
+    background-color: rgb(94, 102, 102);
+    
+}
+
+.relative {
+    background-color: rgb(167, 228, 190);
+    
+}
+
+.absolute {
+    background-color: rgb(134, 92, 122);
+    
+}
+
+.fixed {
+
+    background-color: rgb(199, 153, 84);
+}
