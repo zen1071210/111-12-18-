@@ -11,33 +11,32 @@
     margin-top:20px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid;
-    background-color: gray;
+
 }
 
 .cube {
-    width: auto;
-    height: auto;
+    width: 100px;
+    height: 100px;
     border: 1px solid black;
     
 }
 
 .static {
     background-color: rgb(94, 102, 102);
-    
+    position: static;
 }
 
 .relative {
     background-color: rgb(167, 228, 190);
-    
+    position: relative;
 }
 
 .absolute {
     background-color: rgb(134, 92, 122);
-    
+    position: absolute;
 }
 
 .fixed {
-
     background-color: rgb(199, 153, 84);
+    position: fixed;
 }
