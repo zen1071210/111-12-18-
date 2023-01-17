@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.block {
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    background-color: rgb(129, 129, 129);
+    
+
+}
+
+.cube {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    
+}
+
+.static {
+    background-color: rgb(217, 238, 238);
+    position: static;
+    
+}
+
+.relative {
+    background-color: rgb(97, 138, 113);
+    position: relative;
+    bottom: 50px; left: 10px
+}
+
+.absolute {
+    background-color: rgb(134, 92, 122);
+    position: absolute;
+    bottom: 50px; left: 10px
+}
+
+.fixed {
+    background-color: rgb(199, 153, 84);
+    position: fixed;
+    top: 10px; left: 10px
+
+}
